@@ -9,7 +9,7 @@ const Setting = function ({navigation, route}) {
 				<Button
 					title="去详情页"
 					onPress={ () => {
-						navigation.navigate('SettingDetail', {name: 'hello'})
+						navigation.navigate('SettingDetail', {name: 'hello'}) 
 					}}
 				></Button>
 			</View>

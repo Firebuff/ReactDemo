@@ -13,3 +13,15 @@ export const minusTotal = function (data) {
 		data: data
 	}
 }
+
+
+export const asyncPlus = function (number) {
+	// console.log(number)
+	return function (dispatch) {
+		console.log(number)
+		/*setTimeout( () => {
+			dispatch(plusTotal(number))
+		}, 5000)*/
+		dispatch(plusTotal(number))
+	}
+}
